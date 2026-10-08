@@ -19,6 +19,7 @@ section{max-width:1000px;margin:auto;padding:64px 20px}
 h2{font-size:28px;margin:0 0 24px}h2::before{content:"// ";color:var(--ac);font-family:ui-monospace,Menlo,monospace}
 h3{margin:0 0 4px;font-size:18px}
 .hero{padding-top:90px}
+.hw{display:flex;align-items:center;justify-content:space-between;gap:40px;flex-wrap:wrap-reverse}.pic{width:200px;height:200px;border-radius:50%;object-fit:cover;border:3px solid var(--ac)}
 .hero small{color:var(--ac2);font-family:ui-monospace,Menlo,monospace}
 .hero h1{font-size:clamp(34px,6vw,56px);line-height:1.1;margin:8px 0}
 .hero h1 span{color:var(--ac)}
@@ -42,13 +43,15 @@ footer{text-align:center;color:var(--mut);padding:32px 20px;border-top:1px solid
 <nav><div class="nw"><b>Mohamed Aazouni</b><div>
 <a href="#home">Home</a><a href="#about">About</a><a href="#skills">Skills</a><a href="#experience">Experience</a><a href="#projects">Projects</a><a href="#education">Education</a><a href="#contact">Contact</a></div></div></nav>
 
-<section id="home" class="hero">
+<section id="home" class="hero"><div class="hw"><div>
 <small>Morocco 🇲🇦</small>
 <h1>Mohamed <span>Aazouni</span></h1>
 <h3>Network, Cloud &amp; Cybersecurity Student</h3>
 <p>Exploring cybersecurity, networking, cloud technologies and artificial intelligence through practical projects and hands-on learning.</p>
-<div class="btns"><a class="btn p" href="#projects">View Projects</a><a class="btn" href="#contact">Contact Me</a></div>
-</section>
+<div class="btns"><a class="btn p" href="#projects">View Projects</a><a class="btn" href="docs/CV_Mohamed_Aazouni.pdf" target="_blank" rel="noopener">Download CV</a><a class="btn" href="#contact">Contact Me</a></div>
+</div>
+<img class="pic" src="images/profile.jpg" alt="Mohamed Aazouni" onerror="this.style.display='none'">
+</div></section>
 
 <section id="about"><h2>About Me</h2>
 <div class="card"><p style="margin-top:0">I am a Network, Cloud and Cybersecurity student with a strong interest in Artificial Intelligence and intelligent systems.</p>
@@ -60,7 +63,7 @@ footer{text-align:center;color:var(--mut);padding:32px 20px;border-top:1px solid
 <div class="card"><span class="lvl">Intermediate</span><h3>Cybersecurity</h3><p class="mut">Network security, security monitoring, incident investigation, SIEM, offensive security fundamentals, threat detection</p><div class="tags"><span>Wazuh</span><span>Nmap</span><span>Metasploit</span></div></div>
 <div class="card"><span class="lvl">Intermediate</span><h3>Networking</h3><p class="mut">TCP/IP, network administration, monitoring, troubleshooting, CCNA-level knowledge</p><div class="tags"><span>Zabbix</span><span>VMware</span><span>Linux networking</span></div></div>
 <div class="card"><span class="lvl">Intermediate</span><h3>Linux &amp; Sysadmin</h3><p class="mut">Administration, command line, system configuration, virtual machines</p></div>
-<div class="card"><h3>Programming</h3><p class="mut">Python (intermediate): OOP, automation, data processing.<br>Java and C/C++ (beginner/intermediate). SQL / MySQL.</p><div class="tags"><span>Python</span><span>Java</span><span>C / C++</span><span>MySQL</span></div></div>
+<div class="card"><h3>Programming</h3><p class="mut">Python (intermediate): OOP, automation, data processing.<br>SQL / MySQL: database fundamentals and queries.</p><div class="tags"><span>Python</span><span>MySQL</span></div></div>
 <div class="card"><h3>AI &amp; Data</h3><p class="mut">Machine learning, data mining, deep learning, computer vision (face detection, image processing, deepfake detection), prompt engineering, AI agents &amp; workflow automation</p><div class="tags"><span>PyTorch</span><span>EfficientNet</span><span>MTCNN</span><span>Grad-CAM</span></div></div>
 <div class="card"><span class="lvl">Beginner</span><h3>Cloud &amp; Virtualization</h3><p class="mut">Cloud fundamentals, virtualization, VM management</p><div class="tags"><span>VMware</span><span>Google Colab</span><span>Git / GitHub</span></div></div>
 </div></section>
@@ -99,7 +102,8 @@ footer{text-align:center;color:var(--mut);padding:32px 20px;border-top:1px solid
 
 <section id="contact"><h2>Let's Connect</h2>
 <div class="card"><p style="margin-top:0">I'm always interested in learning, building new projects, and connecting with people working in cybersecurity, networking, cloud computing and artificial intelligence.</p>
-<div class="btns"><a class="btn p" href="https://github.com/mohamedaazouni10-code" target="_blank" rel="noopener">GitHub</a><a class="btn" href="https://www.linkedin.com/in/mohamed-aazouni-4695a4395/" target="_blank" rel="noopener">LinkedIn</a></div></div></section>
+<p>Email: <a href="mailto:mohamed.aazouni10@gmail.com">mohamed.aazouni10@gmail.com</a></p>
+<div class="btns"><a class="btn p" href="mailto:mohamed.aazouni10@gmail.com">Email Me</a><a class="btn" href="docs/CV_Mohamed_Aazouni.pdf" target="_blank" rel="noopener">Download CV</a><a class="btn" href="https://github.com/mohamedaazouni10-code" target="_blank" rel="noopener">GitHub</a><a class="btn" href="https://www.linkedin.com/in/mohamed-aazouni-4695a4395/" target="_blank" rel="noopener">LinkedIn</a></div></div></section>
 
 <footer>© 2026 Mohamed Aazouni · Built with HTML, CSS &amp; JavaScript.</footer>
 </body>
